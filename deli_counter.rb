@@ -9,7 +9,7 @@ def line(katz_deli)
       current_line << "#{index + 1}. #{person}"
     end
     current_line.join("")
-    puts "The line is currently: current_line"
+    puts "The line is currently: #{current_line}"
   end
 end
 
