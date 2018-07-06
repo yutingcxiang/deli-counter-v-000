@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |person, index|
       current_line << "#{index + 1}. #{person}"
     end
-    puts "The line is currently: #{current_line.inspect}"
+    puts "The line is currently: #{current_line.join(' ')}"
   end
 end
 
